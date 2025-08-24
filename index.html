@@ -4,11 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Callao: Historia, Cultura y Pasión</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./css/estilos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
   <link rel="icon" href="./img/logo.png" type="image/png">
 </head>
 <body>
+  <audio id="bg-music" autoplay loop hidden>
+    <source src="./audio/callao.mp3" type="audio/mpeg">
+  </audio>
+   <script>
+    const audio = document.getElementById("bg-music");
+    audio.volume = 0.15;
+  </script>
   <header>
     <div class="wrap">
       <nav>
@@ -80,7 +87,7 @@
           <article class="card">
         <video controls autoplay muted loop width="100%" height="200">
           <source src="./video/MONUMENTALCALLAO.mp4" type="video/mp4">
-          Tu navegador no soporta video HTML5.
+
         </video>
         <div class="p"><strong>Callao Monumental</strong><br>Arte urbano, galerías y cultura viva.</div>
       </article>
