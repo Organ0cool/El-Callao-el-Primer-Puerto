@@ -9,6 +9,13 @@
   <link rel="icon" href="./img/logo.png" type="image/png">
 </head>
 <body>
+  <audio id="bg-music" autoplay loop hidden>
+    <source src="./audio/callao.mp3" type="audio/mpeg">
+  </audio>
+   <script>
+    const audio = document.getElementById("bg-music");
+    audio.volume = 0.15;
+  </script>
   <header>
     <div class="wrap">
       <nav>
@@ -80,7 +87,7 @@
           <article class="card">
         <video controls autoplay muted loop width="100%" height="200">
           <source src="./video/MONUMENTALCALLAO.mp4" type="video/mp4">
-          Tu navegador no soporta video HTML5.
+
         </video>
         <div class="p"><strong>Callao Monumental</strong><br>Arte urbano, galerías y cultura viva.</div>
       </article>
