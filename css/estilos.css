@@ -17,7 +17,7 @@ body::before {
   content: "";
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url("/img/callaoidentidad.png") center/contain no-repeat;
+  background: url("./img/callaoidentidad.png") center/contain no-repeat;
   background-size: 101%;
   opacity: 0.4;
   z-index: -1;
